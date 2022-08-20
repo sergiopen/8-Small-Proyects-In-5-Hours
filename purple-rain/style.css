@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #84a;
+}
+
+.div-container .heart-div{
+    position: absolute;
+    top: -200px;
+    color: rebeccapurple;
+    font-size: 2.5rem;
+    animation-duration: 10s;
+    animation-name: heartFall;
+    cursor: default;
+}
+
+@keyframes heartFall{
+    from{
+        top: -70px;
+    }
+    to{
+        top: 1200px;
+    }
+}

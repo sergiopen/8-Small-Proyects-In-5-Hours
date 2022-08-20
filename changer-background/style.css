@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: cursive;
+}
+
+#btn{
+    padding: 7px 5px;
+    background-color: aqua;
+    border: 2px solid #000;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform .1s;
+}
+
+#btn:active{
+    transform:translate(2px, 2px);
+}
